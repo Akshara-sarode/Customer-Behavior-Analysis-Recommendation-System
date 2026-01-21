@@ -1,15 +1,15 @@
-#🛒 CUSTOMER BEHAVIOR ANALYSIS & RECOMMENDATION SYSTEM
+# 🛒 CUSTOMER BEHAVIOR ANALYSIS & RECOMMENDATION SYSTEM
 
 Using SVD, Matrix Factorization, Stacked LSTM & Attention-Based Autoencoder
 
-##📌 PROJECT OVERVIEW
+## 📌 PROJECT OVERVIEW
 
 Personalized recommendation systems are a core component of modern e-commerce platforms.
 This project presents a comprehensive customer behavior analysis and recommendation system built using traditional collaborative filtering and advanced deep learning models.
 
 The system analyzes user–item interactions, temporal behavior, and latent representations to predict ratings and recommend relevant products from the Amazon Fine Food Reviews dataset.
 
-##🎯 PROJECT OBJECTIVES
+## 🎯 PROJECT OBJECTIVES
 
 Analyze customer behavior using historical interaction data
 
@@ -21,9 +21,9 @@ Improve recommendation accuracy and personalization
 
 Address challenges such as data sparsity and cold-start
 
-##🧠 MODELS & TECHNIQUES USED
+## 🧠 MODELS & TECHNIQUES USED
 
-###🔹 Traditional & Machine Learning Models
+### 🔹 Traditional & Machine Learning Models
 
 Cosine Similarity (Distance-Based Collaborative Filtering)
 
@@ -35,7 +35,7 @@ Matrix Factorization (MF)
 
 Probabilistic Matrix Factorization (PMF)
 
-###🔹 Deep Learning Models
+### 🔹 Deep Learning Models
 
 Convolutional Neural Networks (CNN)
 
@@ -49,7 +49,7 @@ Learns contextual importance
 
 Handles sparse and cold-start scenarios
 
-##📊 DATASET DETAILS
+## 📊 DATASET DETAILS
 
 Amazon Fine Food Reviews Dataset
 
@@ -67,12 +67,12 @@ Time
 
 Interaction frequency features
 
-Dataset Source:
+## Dataset Source:
 https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
-##⚙️ METHODOLOGY
+## ⚙️ METHODOLOGY
 
-###1️⃣ Data Preprocessing
+### 1️⃣ Data Preprocessing
 
 Removed sparse users and products
 
@@ -80,13 +80,13 @@ Encoded user–item interactions
 
 Time-aware feature engineering
 
-###2️⃣ Model Training & Comparison
+### 2️⃣ Model Training & Comparison
 
 Trained multiple recommendation models
 
 Compared regression and classification performance
 
-###3️⃣ Deep Learning Pipeline
+### 3️⃣ Deep Learning Pipeline
 
 Sequential modeling with stacked LSTM
 
@@ -94,7 +94,7 @@ Attention mechanism for behavioral relevance
 
 Autoencoder-based latent representation learning
 
-###4️⃣ Recommendation Strategy
+### 4️⃣ Recommendation Strategy
 
 Predict user ratings
 
@@ -102,7 +102,7 @@ Select Top-N recommended products
 
 Filter outdated items using time-based thresholds
 
-##📈 RESULTS & PERFORMANCE
+## 📈 RESULTS & PERFORMANCE
 
 Model	Accuracy
 Cosine Similarity	~44%
@@ -115,7 +115,7 @@ Stacked LSTM + Attention Autoencoder	~99%
 
 SVD and Matrix Factorization performed best among classical models, while the Stacked LSTM with Attention Autoencoder achieved the highest accuracy by effectively modeling temporal user behavior.
 
-##🧪 EVALUATION METRICS
+## 🧪 EVALUATION METRICS
 
 Mean Squared Error (MSE)
 
@@ -125,9 +125,9 @@ Confusion Matrix
 
 Ratings > 4 treated as positive recommendations
 
-##🛠️ TECH STACK
+## 🛠️ TECH STACK
 
-Programming & Tools
+# Programming & Tools
 
 Python
 
@@ -139,7 +139,7 @@ Matplotlib, Seaborn
 
 Jupyter Notebook
 
-##📁 PROJECT STRUCTURE
+## 📁 PROJECT STRUCTURE
 
 ├── Amazon_pmf_svd_Stacked_LSTM_Autoencoder.ipynb
 ├── data/
@@ -151,7 +151,7 @@ Jupyter Notebook
 ├── README.md
 
 
-##🚀 HOW TO RUN THE PROJECT
+## 🚀 HOW TO RUN THE PROJECT
 
 git clone https://github.com/your-username/customer-behavior-recommendation.git
 cd customer-behavior-recommendation
@@ -159,7 +159,7 @@ pip install -r requirements.txt
 jupyter notebook Amazon_pmf_svd_Stacked_LSTM_Autoencoder.ipynb
 
 
-##🔮 FUTURE ENHANCEMENTS
+## 🔮 FUTURE ENHANCEMENTS
 
 Integrate sentiment analysis from review text
 
@@ -169,16 +169,16 @@ Improve explainability of deep learning models
 
 Deploy as a real-time recommendation system
 
-##👩‍💻 AUTHOR
+## 👩‍💻 AUTHOR
 
 Akshara Avinash Sarode
 
 MS in Computer Science
 Data Analytics | Machine Learning | Recommender Systems
 
-LinkedIn:
+## LinkedIn:
 https://www.linkedin.com/in/akshara-avinash-sarode/
 
-##⭐ ACKNOWLEDGMENT
+## ⭐ ACKNOWLEDGMENT
 
 If you find this project useful, consider starring ⭐ the repository!
